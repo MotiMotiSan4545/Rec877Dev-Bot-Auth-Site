@@ -194,7 +194,7 @@
         </div>
 
         <div class="cf-turnstile" 
-             data-sitekey="YOUR_CLOUDFLARE_TURNSTILE_SITE_KEY"
+             data-sitekey="0x4AAAAAACKQpWLUnna9mo5_"
              data-callback="onCFSuccess"></div>
 
         <button class="verify-btn" id="verify-btn" disabled>認証を完了する</button>
