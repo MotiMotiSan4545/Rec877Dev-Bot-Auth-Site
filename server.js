@@ -8,7 +8,7 @@ app.use(express.static('public'));
 
 // 設定
 const PORT = process.env.PORT || 3000;
-const BOT_WEBHOOK_URL = process.env.BOT_WEBHOOK_URL || 'http://122.222.227.203:2107';
+const BOT_WEBHOOK_URL = process.env.BOT_WEBHOOK_URL || 'http://122.222.227.203:5000';
 const CLOUDFLARE_SECRET = process.env.CLOUDFLARE_SECRET || 'YOUR_CLOUDFLARE_SECRET';
 const VPN_API_KEY = process.env.VPN_API_KEY || ''; // 任意: proxycheck.io等のAPIキー
 
